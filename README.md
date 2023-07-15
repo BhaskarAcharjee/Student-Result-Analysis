@@ -1,6 +1,11 @@
 # Student Result Analysis
 This repository contains an analysis of the student results dataset. The dataset provides information about students' demographics, parental education, test preparation, and scores in various subjects.
 
+## Usage
+To run the analysis, ensure that the required libraries (numpy, pandas, matplotlib, seaborn) are installed. The student results dataset should be saved as a CSV file named "Student_results.csv" in the same directory.
+<br> Execute the code in a Python environment such as Jupyter Notebook or any Python IDE. The results will be displayed through various charts and summaries.
+<br> Feel free to modify the code and adapt it to your own dataset or add additional analyses as needed.
+
 ## Dataset
 The dataset used for this analysis is stored in the `Student_results.csv` file. It contains the following columns:
 
@@ -37,7 +42,8 @@ print(df.isnull().sum())
 
 ### Gender Distribution
 
-
+![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/7945d81f-7a2c-4e13-83bb-070c42225e85)
+![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/419b9760-da9a-4107-a876-cfe817c4ca17)
 
 - The analysis reveals the distribution of students based on gender. It shows that there are more females than males in the dataset.
 
@@ -57,12 +63,14 @@ print(df.isnull().sum())
 
 ### Individual Score Analysis
 
-![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/9e8f1e79-c2ea-43a6-8fb3-0b9490445d01)
-![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/1bd47992-3a9b-4fca-b18e-8eac7b9ae2a7)
-![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/245493f4-9014-4b74-9bc1-f71f380ea0a4)
-![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/e5714f34-adf9-4f58-ac85-b999b629de5f)
-![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/abe23d8e-81ed-48ca-aa71-87a6f7b1958c)
-![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/259d424d-3996-48f0-a213-67828efa5e81)
+<p float="left">
+    <img src="https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/9e8f1e79-c2ea-43a6-8fb3-0b9490445d01" alt="Image 1" width="200" />
+    <img src="https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/1bd47992-3a9b-4fca-b18e-8eac7b9ae2a7" alt="Image 2" width="200" />
+    <img src="https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/245493f4-9014-4b74-9bc1-f71f380ea0a4" alt="Image 3" width="200" />
+    <img src="https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/e5714f34-adf9-4f58-ac85-b999b629de5f" alt="Image 4" width="400" />
+    <img src="https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/abe23d8e-81ed-48ca-aa71-87a6f7b1958c" alt="Image 5" width="200" />
+    <img src="https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/259d424d-3996-48f0-a213-67828efa5e81" alt="Image 6" width="300" />
+</p>
 
 - The analysis focuses on the distribution of scores in Math, Reading, and Writing subjects. The box plots and violin plots provide insights into the spread and central tendency of the scores. Math appears to be relatively more challenging compared to the other subjects.
 
@@ -74,31 +82,33 @@ print(df.isnull().sum())
 
 - The analysis visualizes the distribution of students across different ethnic groups. It gives an overview of the representation of each group in the dataset.
 
-### Average Scores by Test Preparation
+### Scores Analysis based on different parameters
+
+#### Average Scores by Test Preparation
 
 ![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/2bc6c575-3907-4003-8e9d-91e8e9adad9f)
 
 - The analysis compares the average scores of students based on their test preparation status. It shows that students who completed test preparation tend to have higher average scores compared to those who did not.
 
-### Average Scores by Lunch Type
+#### Average Scores by Lunch Type
 
 ![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/119fa93a-3758-4c2e-ac0c-ee002eff8d38)
 
 - The analysis investigates the relationship between lunch type and student scores. It demonstrates that students who have a standard lunch tend to have higher average scores compared to those with a free/reduced lunch.
 
-### Average Scores: First Child vs. Other Siblings
+#### Average Scores: First Child vs. Other Siblings
 
 ![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/30e705d1-b783-421c-9f41-48a32305f633)
 
 - The analysis examines the impact of having siblings on student scores. It suggests that there is no significant effect based on whether the student is the first child or has siblings.
 
-### Average Scores by Sports Practice
+#### Average Scores by Sports Practice
 
 ![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/508e892d-6168-426e-b357-0861c1579cfa)
 
 - The analysis explores the relationship between sports practice and student scores. It indicates that students who regularly practice sports tend to have better average scores compared to those who do not participate in sports.
 
-### Average Scores by Transportation Means
+#### Average Scores by Transportation Means
 
 ![download](https://github.com/BhaskarAcharjee/Student-Result-Analysis/assets/76872572/16865ce6-25d4-4940-a9f6-aae34b8a2089)
 
